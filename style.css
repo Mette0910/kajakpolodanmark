@@ -38,13 +38,11 @@ nav a {
   position: relative;
 }
 
-.hero-text {
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
+.hero {
+  background: url('emsejr2023.jpeg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  position: relative;
 }
 
 main {
