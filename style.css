@@ -32,7 +32,7 @@ nav a {
 }
 
 .hero {
-  background: url('emsejr2023.jpeg') no-repeat center center/cover;
+  background: url(emsejr2023.jpeg) no-repeat center center/cover;
   height: 400px;
   color: white;
   position: relative;
