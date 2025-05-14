@@ -18,7 +18,6 @@ nav {
   z-index: 999;
 }
 
-''
 nav .logo {
   display: flex;
   align-items: center;
@@ -104,3 +103,4 @@ footer {
   background: #111;
   color: #ccc;
   text-align
+}
