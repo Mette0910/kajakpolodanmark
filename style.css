@@ -10,12 +10,17 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
-  padding: 15px 40px;
-  border-bottom: 1px solid #ccc;
-  position: sticky;
-  top: 0;
+  background: transparent;
+  padding: 20px 40px;
+  position: absolute;
+  width: 100%;
   z-index: 999;
+}
+
+nav h1 {
+  font-size: 22px;
+  margin: 0;
+  color: white;
 }
 
 nav .logo {
@@ -28,12 +33,6 @@ nav .logo img {
   height: 45px;
 }
 
-nav h1 {
-  font-size: 22px;
-  margin: 0;
-  color: #111;
-}
-
 nav ul {
   list-style: none;
   display: flex;
@@ -44,12 +43,12 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #111;
+  color: white;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #007bff;
+  color: #00ccff;
 }
 
 .hero {
@@ -64,15 +63,16 @@ nav a:hover {
 }
 
 .hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
 }
 
 .hero-text h2 {
